@@ -1,0 +1,68 @@
+.weather-app-wrapper
+    min-height: 100vh
+    // Clear Night
+    background: $weather-wrapper-night-background
+    // Cloud Day
+    // background: url("//s1.twnmm.com/images/fr_ca/backgrounds/unified/cloudy_day.jpg") 50% 0px no-repeat rgb(38, 112, 175)
+    // Night
+    //background: url("//s1.twnmm.com/images/fr_ca/backgrounds/unified/clear_night.jpg") 50% 0px no-repeat rgb(38, 112, 175)
+
+    
+// .info-container
+//     background: linear-gradient(to top,rgba(0,0,0,0),rgba(0,0,0,0.5)) !important
+
+.main-info
+    font-size: 1.2rem
+    color: white
+    @include centered
+    flex-direction: column
+
+.main-info span
+    font-size: 1rem
+
+#current-temp
+    color: white
+    font-size: 5rem
+
+#main-header
+    padding-top: 67px !important
+
+#main-header-info
+    text-align: center
+    color: white
+    transition: all 0.2s
+    // Night
+    background: #19235c93 !important
+    // background: #19435c93 !important
+
+#main-header-info:hover    
+    background: rgba(25, 35, 92, 0.9) !important
+#weather-input
+    color: white
+    padding: 0.3rem
+    background: #222a55c0 !important
+    border: none
+
+#weather-input placeholder
+    color: white
+
+#weather-input:focus
+
+// .sub-info-list
+//     display: flex
+//     flex-direction: row
+//     list-style: none
+
+.sub-info-list li
+    margin: 20px 25px      
+
+.days-info-container
+    min-height: 100%
+    color: white
+
+.days-info-container .element
+    height: 10rem
+    padding-top: 1.2rem
+
+.days-info-container .element:hover
+    background: #3b3b3b3a

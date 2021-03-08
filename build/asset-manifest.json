@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "./static/css/main.3b685b52.chunk.css",
+    "main.js": "./static/js/main.bc890ec5.chunk.js",
+    "main.js.map": "./static/js/main.bc890ec5.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.cf705ba3.js",
+    "runtime-main.js.map": "./static/js/runtime-main.cf705ba3.js.map",
+    "static/css/2.41fc952c.chunk.css": "./static/css/2.41fc952c.chunk.css",
+    "static/js/2.a448fabb.chunk.js": "./static/js/2.a448fabb.chunk.js",
+    "static/js/2.a448fabb.chunk.js.map": "./static/js/2.a448fabb.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.a7783adba5c967b88e4d238775343a41.js": "./precache-manifest.a7783adba5c967b88e4d238775343a41.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/2.41fc952c.chunk.css.map": "./static/css/2.41fc952c.chunk.css.map",
+    "static/css/main.3b685b52.chunk.css.map": "./static/css/main.3b685b52.chunk.css.map",
+    "static/js/2.a448fabb.chunk.js.LICENSE.txt": "./static/js/2.a448fabb.chunk.js.LICENSE.txt",
+    "static/media/main.sass": "./static/media/naruto-sasuke.4747803c.jpg",
+    "static/media/photoProfil.jpg": "./static/media/photoProfil.f76bfc19.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cf705ba3.js",
+    "static/css/2.41fc952c.chunk.css",
+    "static/js/2.a448fabb.chunk.js",
+    "static/css/main.3b685b52.chunk.css",
+    "static/js/main.bc890ec5.chunk.js"
+  ]
+}

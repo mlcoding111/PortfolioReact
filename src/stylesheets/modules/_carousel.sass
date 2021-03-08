@@ -1,0 +1,73 @@
+// HOME CAROUSEL 
+.carousel-item::before
+  content: ''
+  position: absolute
+  left: 0
+  right: 0
+  height: 100%
+  background: linear-gradient(to bottom,rgba(0, 0, 0, .5),rgba(0, 0, 0, 0.4))
+
+.carousel-item
+  height: 95vh
+  min-height: 300px
+  background: no-repeat center center scroll
+  -webkitte-background-size: cover
+  background-size: cover
+
+.carousel-caption
+  bottom: 220px
+
+#carousel-item-1
+  // background: url("../../img/home/react-neutron.png")
+  background: url("https://news.fnal.gov/wp-content/uploads/2019/08/3d-ai-artificial-intelligence-1166602-quantised.jpg")
+  background-repeat: no repeat
+  background-position: center
+  background-size: cover
+
+#carousel-item-2
+  background: url("https://cdn.hipwallpaper.com/i/94/25/Vz2EZ7.jpg")
+  background-repeat: no repeat
+  background-position: center
+  background-size: cover
+
+#carousel-item-3
+  background: url("https://media.itpro.co.uk/image/upload/v1570816742/itpro/2019/02/quantum_shutterstock_1046721625.jpg")
+  background-repeat: no repeat
+  background-position: center
+  background-size: cover
+
+.carousel-caption h5
+  font-size: 3rem
+  text-transform: uppercase
+  letter-spacing: 2px
+  margin-top: 25px
+  font-family: merienda
+
+.carousel
+  width: 100%
+  height: auto
+
+.carousel-caption p
+  width: 60%
+  margin: auto
+  font-size: 18px
+  line-height: 1.9
+  font-family: poppins
+
+.carousel-caption a
+  text-transform: uppercase
+  background: #262626
+  padding: 10px 30px
+  display: inline-block
+  color: #ffffff
+  margin-top: 15px
+
+@media only screen and (max-width: 1300px)
+  .carousel-caption
+    bottom: 200px
+
+@media only screen and (max-width: 600px)
+  .carousel-caption
+    bottom: 150px
+    h5
+      font-size: 2rem !important

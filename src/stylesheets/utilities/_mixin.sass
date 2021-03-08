@@ -1,0 +1,30 @@
+@mixin centered
+    display: flex
+    justify-content: center
+    align-items: center
+
+@mixin absoluteCentered($left, $top)
+    position: absolute
+    top: $top
+    left: $left
+    -webkit-transform: translate(-50%, -50%)
+    -ms-transform: translate(-50%, -50%)
+    transform: translate(-50%, -50%)  
+
+@mixin backgroundPropreties
+    background-size: cover
+    background-position: center
+    background-repeat: no-repeat
+
+
+@mixin fontSize-16
+    font-size: 1rem
+
+@mixin fontSize-24
+    font-size: 1.5rem
+
+@mixin fontSize-36
+    font-size: 2.25rem
+    font-weight: 600
+    
+    

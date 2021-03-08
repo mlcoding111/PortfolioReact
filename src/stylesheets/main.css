@@ -1,0 +1,1045 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root, .App {
+  height: 100%;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  overflow-x: hidden;
+}
+
+h1 {
+  color: black;
+}
+
+h3 {
+  font-size: 1.6rem;
+  font-weight: 300;
+  color: white;
+}
+
+p {
+  word-spacing: 1px;
+}
+
+.text-red {
+  color: red !important;
+}
+
+h6 {
+  fontsize: 1.4rem;
+}
+
+h5 {
+  fontsize: 2.8rem;
+}
+
+h4 {
+  fontsize: 4.2rem;
+}
+
+h3 {
+  fontsize: 5.6rem;
+}
+
+h2 {
+  fontsize: 7rem;
+}
+
+h1 {
+  fontsize: 8.4rem;
+}
+
+@media only screen and (max-width: 600px) {
+  html, body {
+    font-size: .9rem;
+  }
+  #logo {
+    width: 8rem !important;
+    margin-right: 2rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .categories h1 {
+    font-size: 2rem;
+  }
+  #logo {
+    margin-right: 2rem;
+  }
+  .carousel-caption {
+    font-size: 3rem;
+  }
+  .long-text {
+    font-size: 1.5rem;
+  }
+}
+
+/******************************/
+/****** FOOTER ****************/
+/******************************/
+.site-footer {
+  background-color: #26272b;
+  padding: 45px 0 20px;
+  font-size: 15px;
+  line-height: 24px;
+  color: #737373;
+}
+
+.site-footer hr {
+  border-top-color: #bbb;
+  opacity: 0.5;
+}
+
+.site-footer hr.small {
+  margin: 20px 0;
+}
+
+.site-footer h6 {
+  color: #fff;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  margin-top: 5px;
+}
+
+.site-footer a {
+  color: #737373;
+}
+
+.site-footer a:hover {
+  color: #3366cc;
+  text-decoration: none;
+}
+
+.site-footer ul .social-list ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  padding: 40px;
+}
+
+.footer-links {
+  padding-left: 0;
+  list-style: none;
+}
+
+.footer-links li {
+  display: block;
+}
+
+.footer-links a {
+  color: #737373;
+}
+
+.footer-links a:active, .footer-links a:focus, .footer-links a:hover {
+  color: #3366cc;
+  text-decoration: none;
+}
+
+.footer-links.inline li {
+  display: inline-block;
+}
+
+.site-footer .social-icons {
+  text-align: right;
+}
+
+.site-footer .social-icons a {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  margin-left: 6px;
+  margin-right: 0;
+  border-radius: 100%;
+  background-color: #33353d;
+}
+
+.copyright-text {
+  margin: 0;
+}
+
+@media (max-width: 991px) {
+  .site-footer [class^=col-] {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .site-footer {
+    padding-bottom: 0;
+  }
+}
+
+.site-footer .copyright-text, .site-footer .social-icons {
+  text-align: center;
+}
+
+.social-icons {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+.social-icons li {
+  display: inline-block;
+  margin-bottom: 4px;
+}
+
+.social-icons li.title {
+  margin-right: 15px;
+  text-transform: uppercase;
+  color: #96a2b2;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.social-icons a {
+  background-color: #eceeef;
+  color: #818a91;
+  font-size: 16px;
+  display: inline-block;
+  line-height: 44px;
+  width: 44px;
+  height: 44px;
+  text-align: center;
+  margin-right: 8px;
+  border-radius: 100%;
+  transition: all .2s linear;
+}
+
+.social-icons a:active, .social-icons a:focus, .social-icons a:hover {
+  color: #fff;
+  background-color: #29aafe;
+}
+
+.social-icons.size-sm a {
+  line-height: 34px;
+  height: 34px;
+  width: 34px;
+  font-size: 14px;
+}
+
+.social-icons a.facebook:hover {
+  background-color: #3b5998;
+}
+
+.social-icons a.twitter:hover {
+  background-color: #00aced;
+}
+
+.social-icons a.linkedin:hover {
+  background-color: #007bb6;
+}
+
+.social-icons a.dribbble:hover {
+  background-color: #ea4c89;
+}
+
+@media (max-width: 767px) {
+  .social-icons li.title {
+    display: block;
+    margin-right: 0;
+    font-weight: 600;
+  }
+}
+
+.footer-links li:hover {
+  cursor: pointer;
+  color: #ff3c3c !important;
+}
+
+#logo {
+  width: 175px;
+}
+
+.main_link:hover {
+  cursor: pointer;
+}
+
+.navContainer {
+  max-width: 1300px;
+}
+
+.navbar-brand {
+  color: black !important;
+}
+
+.dropdown-item:hover {
+  background: black;
+  color: white;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+  background: black;
+  color: white;
+}
+
+.navbar {
+  background: white !important;
+  opacity: 0.8;
+  top: -0.2%;
+  transition: all 0.2s ease-in-out;
+  border-bottom: solid 1px black !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+}
+
+.sticky {
+  color: black;
+  padding: .9rem 0;
+  color: black !important;
+}
+
+.navbar:hover {
+  opacity: 1;
+}
+
+.navbar-nav a {
+  color: black;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: all 0.1s ease-in-out;
+  border-bottom: 1px solid rgba(0, 0, 0, 0);
+  margin: 5px;
+}
+
+.navbar-light .navbar-brand {
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.navbar-brand:hover {
+  color: #ff3c3c !important;
+}
+
+.navlink .link .main_link {
+  text-decoration: none;
+}
+
+.navbar-nav {
+  text-align: center;
+}
+
+.nav-link .main_link {
+  padding: .2rem 1rem;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover, .main_link:hover, .main_link:focus {
+  color: #ff3c3c !important;
+  transform: scale(1.05);
+}
+
+.w-100 {
+  height: 100vh;
+}
+
+.navbar-toggler {
+  color: white;
+}
+
+.navbar-toggler {
+  font-size: 18px;
+  line-height: 0.3;
+  background: #fff;
+}
+
+@media only screen and (max-width: 767px) {
+  .navbar-toggler {
+    padding: 1px 5px;
+    font-size: 18px;
+    line-height: 0.3;
+    background: #fff;
+  }
+}
+
+.nav-link {
+  text-shadow: 2px 2px 3px #969696;
+}
+
+.active {
+  font-size: 1.05rem !important;
+  opacity: 1 !important;
+  color: #ff3c3c !important;
+}
+
+.carousel-item::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4));
+}
+
+.carousel-item {
+  height: 90vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkitte-background-size: cover;
+  background-size: cover;
+}
+
+.carousel-caption {
+  bottom: 220px;
+}
+
+#carousel-item-1 {
+  background: url("https://news.fnal.gov/wp-content/uploads/2019/08/3d-ai-artificial-intelligence-1166602-quantised.jpg");
+  background-repeat: no repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#carousel-item-2 {
+  background: url("https://cdn.hipwallpaper.com/i/94/25/Vz2EZ7.jpg");
+  background-repeat: no repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#carousel-item-3 {
+  background: url("https://media.itpro.co.uk/image/upload/v1570816742/itpro/2019/02/quantum_shutterstock_1046721625.jpg");
+  background-repeat: no repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.carousel-caption h5 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 25px;
+  font-family: merienda;
+}
+
+.carousel {
+  width: 100%;
+  height: auto;
+}
+
+.carousel-caption p {
+  width: 60%;
+  margin: auto;
+  font-size: 18px;
+  line-height: 1.9;
+  font-family: poppins;
+}
+
+.carousel-caption a {
+  text-transform: uppercase;
+  background: #262626;
+  padding: 10px 30px;
+  display: inline-block;
+  color: #ffffff;
+  margin-top: 15px;
+}
+
+@media only screen and (max-width: 1300px) {
+  .carousel-caption {
+    bottom: 200px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .carousel-caption {
+    bottom: 150px;
+  }
+  .carousel-caption h5 {
+    font-size: 2rem !important;
+  }
+}
+
+.categories a:hover {
+  text-decoration: none;
+}
+
+.project-content {
+  position: relative;
+  transition: all 0.4s ease-in-out;
+}
+
+.project-content:hover {
+  transform: scale(1.02);
+  opacity: 1;
+}
+
+.project-content:hover .content-overlay {
+  opacity: 1;
+}
+
+.categories h1 {
+  text-shadow: 0px 5px 15px 1px black;
+}
+
+.project-content img {
+  background-color: white;
+  width: 100%;
+  transition: all 0.3s ease-in-out;
+  border: 1px solid white;
+  box-shadow: 0px 5px 15px 1px black;
+  border-radius: 15px;
+  opacity: .9;
+}
+
+.project-content:hover .content-details {
+  top: 50%;
+  left: 50%;
+  opacity: 1;
+}
+
+.content-details {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 100%;
+  font-size: .8rem;
+  opacity: 0;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.fadeIn-bottom {
+  top: 80%;
+}
+
+.icons {
+  padding-right: 5px;
+}
+
+.icon-laptop {
+  font-size: 2rem;
+}
+
+.content-overlay {
+  border-radius: 15px;
+  background: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  height: 99;
+  width: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  transition: all 0.4s ease-in-out 0s;
+}
+
+.content-details h3 {
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 0.15em;
+  margin-bottom: 0.5em;
+  text-transform: uppercase;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 20px;
+  opacity: 1;
+}
+
+.project_list {
+  transition: all 0.5s;
+  opacity: 0.5;
+}
+
+.categories {
+  background: linear-gradient(to bottom, white, #c2c2c2);
+}
+
+.categories-list {
+  display: flex;
+  list-style: none;
+}
+
+.categories-list li {
+  padding: 9px 5px;
+}
+
+.categories-list li a {
+  text-shadow: 2px 2px 2px #9b9b9b8a;
+  text-decoration: none;
+  padding: 10px 5px;
+  color: grey;
+  opacity: 0.5;
+  font-weight: 600;
+  font-size: .8rem;
+  transition: all 0.3s ease 0s;
+}
+
+.categories-list li a:hover {
+  font-size: .9rem;
+}
+
+.categories-list li:nth-child(4)::after {
+  content: "";
+}
+
+.categories-list li::after {
+  content: "/";
+  margin: 0 0 0 10px;
+  opacity: .3;
+}
+
+.categories-list li a:hover {
+  opacity: 1;
+  list-style: none;
+  border: none;
+}
+
+.active {
+  opacity: 1 !important;
+}
+
+code {
+  font-size: 100%;
+}
+
+.contact-btn a {
+  color: white !important;
+}
+
+.contact-btn {
+  margin-top: 3rem;
+  padding: 15px 30px;
+  font-size: 1.4rem;
+  background-color: #dd386f;
+  border-color: #dd386f;
+  color: white;
+  transition: all 0.3s;
+}
+
+.contact-btn:hover {
+  color: white;
+  transform: scale(1.02);
+}
+
+.about h1 {
+  font-size: 3rem;
+}
+
+.long-text {
+  font-size: 1.2rem;
+}
+
+.about-self-info img {
+  box-shadow: 0px 0px 12px 1px black;
+  border-radius: 1.2rem;
+}
+
+.about .skills-list li {
+  margin: .5rem 0;
+  border-radius: 1rem;
+  background: #d1d1d1;
+  list-style: none;
+}
+
+.skills-list div {
+  border-radius: 1rem;
+  background: #494949;
+  text-align: center;
+  color: white;
+  font-weight: 500;
+}
+
+.aboutContainer {
+  background: linear-gradient(to bottom, #e0e0e0, rgba(0, 0, 0, 0.3));
+}
+
+.aboutContainer h5, .aboutContainer h2 {
+  font-weight: 800;
+}
+
+.aboutContainer h1 {
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 0 15px;
+  font-size: 2.5rem;
+}
+
+.aboutContainer h5 {
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+/* LEARN MORE */
+#learn-more button {
+  outline: none;
+  border: none;
+  padding: .5rem 0;
+  transition: all 0.2s;
+}
+
+#learn-more button:hover {
+  background: black;
+  color: white;
+}
+
+#learn-more span {
+  position: absolute;
+  right: 0;
+  margin-right: 1rem;
+  font-size: 1.5rem;
+}
+
+.convertor-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.52), rgba(0, 0, 0, 0.73)), url("../../img/currencyConvertor/US-flag.jpg");
+}
+
+.wrapper {
+  height: 200px;
+  width: 300px;
+  background: #ffffff59;
+  border-radius: 25px;
+}
+
+.input {
+  border: 1px solid #333;
+  border-radius: .3rem;
+  padding: .25rem;
+  width: 7em;
+  margin-left: 30px;
+}
+
+select {
+  margin-left: .5rem;
+}
+
+.equals {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.pageNotFoundBody {
+  min-height: 100vh;
+  background: url("https://www.infrascale.com/wp-content/uploads/jpg/bg-img-404-error-1920x1080.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.bg h1 {
+  color: white !important;
+}
+
+.bg-list,
+.bg {
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.bg-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: black;
+  background-image: linear-gradient(#2b2727, #110000);
+}
+
+.bg {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.52), rgba(0, 0, 0, 0.73)), url("../../img/animeDb/naruto-sasuke.jpg");
+}
+
+.animeDbCard {
+  box-shadow: 0px 0px 1px 0.5px white;
+  position: relative;
+  margin: auto;
+  overflow: hidden;
+  margin: auto;
+  border-radius: 10px;
+  transition: all 0.2s ease-in-out;
+}
+
+.animeDbCard:hover {
+  box-shadow: 0px 0px 10px 1px white;
+  cursor: pointer;
+}
+
+.animeDbCard img {
+  max-width: 100%;
+  transition: all 0.3s;
+  display: block;
+  width: 100%;
+  height: auto;
+  transform: scale(1);
+}
+
+.animeDbCard-title {
+  font-size: 0.8rem;
+  opacity: 1;
+  position: absolute;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.info-list {
+  list-style: none;
+}
+
+.info-list li {
+  margin-top: 4px;
+}
+
+.info-list li:before {
+  content: '- ';
+}
+
+.content html, .content body {
+  min-height: 100vh;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content h1,
+.content span {
+  color: white;
+  text-transform: uppercase;
+}
+
+.content span {
+  margin-bottom: 25px;
+}
+
+.content .form__group {
+  position: relative;
+  padding: 15px 0 0;
+  margin-top: 10px;
+  width: 80%;
+}
+
+.content .form__field {
+  font-family: inherit;
+  width: 100%;
+  border: 0;
+  border-bottom: 2px solid #9b9b9b;
+  outline: 0;
+  font-size: 1.3rem;
+  color: #fff;
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+}
+
+.content .form__field::placeholder {
+  color: transparent;
+}
+
+.content .form__field:placeholder-shown ~ .form__label {
+  font-size: 1.3rem;
+  cursor: text;
+  top: 20px;
+}
+
+.content .form__label {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 1rem;
+  color: #9b9b9b;
+}
+
+.content .form__field:focus {
+  padding-bottom: 6px;
+  border-width: 3px;
+  border-image: linear-gradient(to right, #ffffff, #ffffff);
+  border-image-slice: 1;
+}
+
+.content .form__field:focus ~ .form__label {
+  position: absolute;
+  top: 0;
+  margin: 0 auto;
+  display: block;
+  transition: 0.2s;
+  font-size: 1rem;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+/* reset input */
+.content:invalid .form__field:invalid, .content:required, .form_field_required {
+  box-shadow: none;
+}
+
+.pirateDbWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100%;
+  background: url("https://vignette.wikia.nocookie.net/onepiece/images/5/50/Wiki-background/revision/latest?cb=2017093000291");
+  background-attachment: fixed;
+}
+
+.editAddWrapper {
+  min-height: 100%;
+  background: url("https://vignette.wikia.nocookie.net/onepiece/images/5/50/Wiki-background/revision/latest?cb=2017093000291");
+  background-attachment: fixed;
+}
+
+.pirateDbWrapper .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #353535;
+  text-align: text-center;
+  margin-top: 3rem;
+}
+
+.containerMargin {
+  margin-top: 7rem;
+}
+
+.table td, table th {
+  vertical-align: middle !important;
+}
+
+.table td {
+  padding: .45em;
+}
+
+thead {
+  border-top: red !important;
+}
+
+.table {
+  width: 100%;
+}
+
+.pirate-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.pirate-info {
+  position: relative;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.52), rgba(0, 0, 0, 0.73)), url("https://onepiece.fandom.com/wiki/Special:FilePath/Module-body-bg-transparent.png");
+  width: 102%;
+}
+
+.pirate-info h1 {
+  color: white;
+  font-weight: bold;
+}
+
+.pirate-info .card {
+  opacity: .9;
+  transition: all 0.5s;
+  color: white !important;
+}
+
+.pirate-info .card div {
+  background: #343a40;
+  transition: all 0.5s;
+}
+
+.pirate-info .card:hover {
+  transform: scale(1.02);
+  opacity: 1;
+}
+
+.pirate-info .card:hover div {
+  background: #212529;
+}
+
+.weather-app-wrapper {
+  min-height: 100vh;
+  background: url("//s1.twnmm.com/images/fr_ca/backgrounds/unified/clear_night.jpg") 50% 0px no-repeat #2670af;
+}
+
+.main-info {
+  font-size: 1.2rem;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main-info span {
+  font-size: 1rem;
+}
+
+#current-temp {
+  color: white;
+  font-size: 5rem;
+}
+
+#main-header {
+  padding-top: 67px !important;
+}
+
+#main-header-info {
+  text-align: center;
+  color: white;
+  transition: all 0.2s;
+  background: #19235c93 !important;
+}
+
+#main-header-info:hover {
+  background: rgba(25, 35, 92, 0.9) !important;
+}
+
+#weather-input {
+  color: white;
+  padding: 0.3rem;
+  background: #222a55c0 !important;
+  border: none;
+}
+
+#weather-input placeholder {
+  color: white;
+}
+
+.sub-info-list li {
+  margin: 20px 25px;
+}
+
+.days-info-container {
+  min-height: 100%;
+  color: white;
+}
+
+.days-info-container .element {
+  height: 10rem;
+  padding-top: 1.2rem;
+}
+
+.days-info-container .element:hover {
+  background: #3b3b3b3a;
+}

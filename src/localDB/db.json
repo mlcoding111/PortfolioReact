@@ -1,0 +1,307 @@
+{
+  "projects": [
+    {
+      "name": "Anime Finder",
+      "picture": "https://puu.sh/GodT8/0a44d8b995.png",
+      "categorie": [
+        "All",
+        "Anime"
+      ],
+      "external": false,
+      "active": true,
+      "description": "Anime finder using MyAnimeList API !",
+      "state": true
+    },
+    {
+      "name": "Pirates DB",
+      "picture": "https://external-preview.redd.it/J2zL6zwAoJFO_lWfXnEU72glYFX5kLXp9kGZSFuVo6s.png?auto=webp&s=d75658fa7d6afda098e6d2e6d453b82c6cb05bca",
+      "categorie": [
+        "All",
+        "Anime"
+      ],
+      "external": false,
+      "active": true,
+      "description": "Custom pirates database with working CRUD , using crudcrud database",
+      "state": true
+    },
+    {
+      "name": "Currency Convertor",
+      "picture": "https://images.wallpaperscraft.com/image/dollar_currency_money_106888_1920x1080.jpg",
+      "categorie": [
+        "All",
+        "Utility"
+      ],
+      "external": false,
+      "active": true,
+      "description": "Simple currency converter using hooks",
+      "state": true
+    },
+    {
+      "name": "Infrastructure Web",
+      "picture": "https://wallpaperaccess.com/full/1340336.jpg",
+      "categorie": [
+        "All",
+        "Utility",
+        "External Link"
+      ],
+      "external": true,
+      "active": false,
+      "description": "Infrastructure Web final exam in php with sql database",
+      "state": false
+    },
+    {
+      "name": "One Piece",
+      "picture": "https://i.imgur.com/zMJ7gXA.jpg",
+      "categorie": [
+        "All",
+        "Anime",
+        "External Link"
+      ],
+      "external": true,
+      "active": false,
+      "description": "Integration 1, Pure html/css One Piece website",
+      "state": false
+    },
+    {
+      "name": "Weather App",
+      "picture": "https://wallpaperaccess.com/full/1540010.jpg",
+      "categorie": [
+        "All",
+        "Utility"
+      ],
+      "external": false,
+      "active": true,
+      "description": "Weather Application using OpenWeather API",
+      "state": true
+    },
+    {
+      "name": "Tic Tac Toe",
+      "picture": "https://wallpoper.com/images/00/43/32/27/tic-tac-toe-game-over_00433227.jpg",
+      "categorie": [
+        "All",
+        "Games"
+      ],
+      "external": false,
+      "active": false,
+      "description": "Jeux a venir..",
+      "state": false
+    },
+    {
+      "name": "Rift Landing Page",
+      "picture": "https://wallpaperaccess.com/full/1583519.jpg",
+      "categorie": [
+        "All",
+        "Design",
+        "External Link",
+        "External Link"
+      ],
+      "external": false,
+      "active": false,
+      "description": "First landing page",
+      "state": false
+    },
+    {
+      "name": "Spotify",
+      "picture": "https://hdwallsource.com/img/2020/2/spotify-music-app-wallpaper-70110-72480-hd-wallpapers.jpg",
+      "categorie": [
+        "All",
+        "Utility"
+      ],
+      "external": false,
+      "active": false,
+      "description": "Spotify app",
+      "state": false
+    },
+    {
+      "name": "Ladeko",
+      "picture": "https://i.imgur.com/ruYWGlZ.jpg",
+      "width": "100%",
+      "link": "http://ladeko.ca/#/",
+      "categorie": [
+        "All",
+        "Utility",
+        "External Link"
+      ],
+      "external": true,
+      "active": true,
+      "description": "Private designer works showcase",
+      "state": true
+    },
+    {
+      "name": "Plan A",
+      "picture": "https://i.imgur.com/US6I3hB.jpg",
+      "link": "http://leplana.ca/#/",
+      "categorie": [
+        "All",
+        "Utility",
+        "External Link"
+      ],
+      "external": true,
+      "active": true,
+      "description": "Private company offering phone repair services",
+      "state": true
+    }
+  ],
+  "pirates": [
+    {
+      "id": 0,
+      "name": "Monkey D. Luffy",
+      "picture": "https://a-static.besthdwallpaper.com/one-piece-monkey-d-luffy-let-s-go-wallpaper-1920x1080-8459_48.jpg",
+      "info": [
+        {
+          "bounty": "1,500,000,000"
+        },
+        {
+          "fruit": "Gomu Gomu no Mi"
+        },
+        {
+          "affiliation": "Straw Hat Pirates"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Roronoa Zoro",
+      "picture": "https://static.zerochan.net/Roronoa.Zoro.full.2979312.jpg",
+      "info": [
+        {
+          "bounty": "320,000,000"
+        },
+        {
+          "fruit": "None"
+        },
+        {
+          "affiliation": "Straw Hat Pirates"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Sanji Vinsmoke",
+      "picture": "https://images.alphacoders.com/900/thumb-1920-900483.png",
+      "info": [
+        {
+          "bounty": "177,000,000"
+        },
+        {
+          "fruit": "None"
+        },
+        {
+          "affiliation": "Straw Hat Pirates"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Trafalgar D. Water Law",
+      "picture": "https://images.wallpapersden.com/image/download/trafalgar-law-in-one-piece_67032_1920x1080.jpg",
+      "info": [
+        {
+          "bounty": "500,000,000"
+        },
+        {
+          "fruit": "Ope Ope no Mi"
+        },
+        {
+          "affiliation": " Shichibukai, Heart Pirates"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Marshall D. Teach",
+      "picture": "https://a-static.besthdwallpaper.com/one-piece-marshall-d-teach-wallpaper-1280x720-51974_45.jpg",
+      "info": [
+        {
+          "bounty": "2,247,600,000"
+        },
+        {
+          "fruit": "Gura Gura no Mi"
+        },
+        {
+          "affiliation": "Yonko, Shichibukai, Blackbeard Pirates"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Shanks",
+      "picture": "https://wallpaperplay.com/walls/full/9/a/9/155578.jpg",
+      "info": [
+        {
+          "bounty": "4,048,900,000"
+        },
+        {
+          "fruit": "None"
+        },
+        {
+          "affiliation": "Yonko, Roger Pirates, Red Hair Pirates"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Gold D. Roger",
+      "picture": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/19a88488-3293-4003-9a8a-510ad042e67d/dclohu4-fa1079d1-b7f5-460c-ac1b-493059aa39bf.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvMTlhODg0ODgtMzI5My00MDAzLTlhOGEtNTEwYWQwNDJlNjdkXC9kY2xvaHU0LWZhMTA3OWQxLWI3ZjUtNDYwYy1hYzFiLTQ5MzA1OWFhMzliZi5qcGcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.vuGWrSeFrPhI4tPEdMqz8uFIu8ngR1chp3o4MJ0Lw2g",
+      "info": [
+        {
+          "bounty": "5,564,800,000"
+        },
+        {
+          "fruit": "Unknown"
+        },
+        {
+          "affiliation": " Roger Pirates "
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Katakuri",
+      "picture": "https://a-static.besthdwallpaper.com/one-piece-charlotte-katakuri-strongest-sweet-general-wallpaper-1920x1080-8372_48.jpg",
+      "info": [
+        {
+          "bounty": "1,057,000,000"
+        },
+        {
+          "fruit": "Mochi Mochi no Mi"
+        },
+        {
+          "affiliation": "Charlotte Family, Big Mom Pirates"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Silvers Rayleigh",
+      "picture": "https://wallpaperaccess.com/full/2143225.jpg",
+      "info": [
+        {
+          "bounty": "Unknown"
+        },
+        {
+          "fruit": "None"
+        },
+        {
+          "affiliation": "Roger Pirates"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Monkey D. Dragon",
+      "picture": "https://images.alphacoders.com/932/thumb-1920-932955.jpg",
+      "info": [
+        {
+          "bounty": "Unknown"
+        },
+        {
+          "fruit": "Unknown"
+        },
+        {
+          "affiliation": "Revolutionary Army"
+        }
+      ]
+    }
+  ]
+}

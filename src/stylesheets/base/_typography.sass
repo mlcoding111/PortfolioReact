@@ -1,0 +1,50 @@
+*
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+
+html, body, #root, .App 
+  height: 100%
+  
+
+body
+  font-family: 'Open Sans', sans-serif
+  overflow-x: hidden
+
+h1
+  color: black
+
+h3
+  font-size: 1.6rem
+  font-weight: 300
+  color: white
+p
+  word-spacing: 1px
+.text-red
+  color: red !important
+
+@for $i from 1 through 6 
+  h#{7 - $i} 
+    fontsize: $i * 1.4rem
+    
+
+
+
+@media only screen and (max-width: 600px)
+  html,body
+    font-size: .9rem
+  #logo
+    width: 8rem !important
+    margin-right: 2rem
+
+
+@media only screen and (min-width: 768px)
+  .categories h1
+    font-size: 2rem
+  #logo
+    margin-right: 2rem
+  .carousel-caption 
+    font-size: 3rem
+  .long-text
+    font-size: 1.5rem
+

@@ -1,0 +1,59 @@
+.pirateDbWrapper
+    @include centered
+    min-height: 100%
+    background: $pirate-wrapper-background
+    background-attachment: fixed
+
+.editAddWrapper
+    min-height: 100%
+    background: $pirate-wrapper-background
+    background-attachment: fixed    
+
+.pirateDbWrapper .container
+    @include centered
+    flex-direction: column
+    background-color: #353535
+    text-align: text-center
+    margin-top: 3rem
+.containerMargin
+    margin-top: 7rem
+//TABLE
+.table td, table th
+    vertical-align: middle !important
+    
+.table td 
+    padding: .45em
+thead
+    border-top: red !important
+.table
+    width: 100%
+
+// PIRATE-INFO
+
+.pirate-info
+    @include centered
+    flex-direction: column
+
+.pirate-info
+    position: relative
+    background: $pirate-info-background
+    width: 102%
+
+.pirate-info h1
+    color: white
+    font-weight: bold
+
+.pirate-info .card
+    opacity: .9
+    transition: all 0.5s  
+    color: white !important
+
+.pirate-info .card div
+    background: #343a40
+    transition: all 0.5s
+
+.pirate-info .card:hover
+    transform: scale(1.02)
+    opacity: 1
+    div
+        background: #212529
